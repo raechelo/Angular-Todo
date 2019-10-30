@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: hotpink;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: skyblue;
+  color: darkblue;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: darkblue;
+  color: skyblue;
+}
